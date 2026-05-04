@@ -1,8 +1,6 @@
 from typing import Tuple
 
-
 State = Tuple[int, int]
-
 
 class GridWorld:
     """

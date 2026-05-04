@@ -5,7 +5,6 @@ from training.train import run_learning_rate_experiments
 from utils.plots import plot_rewards, plot_steps
 from utils.visualisation import plot_state_values
 
-
 def save_results_table(results: list[dict]) -> None:
     base_dir = os.path.dirname(os.path.dirname(__file__))
     output_dir = os.path.join(base_dir, "results", "tables")

@@ -66,6 +66,7 @@ def plot_state_values(agent: QLearningAgent, filename: str = "state_values.png")
 
     output_path = os.path.join(output_dir, filename)
     plt.savefig(output_path, dpi=300)
-    plt.show()
+    plt.show(block=True)
+    plt.close()
 
     print(f"State-value visualisation saved to: {output_path}")

@@ -2,7 +2,6 @@ import os
 
 import matplotlib.pyplot as plt
 
-
 def plot_rewards(results):
     os.makedirs("gridworld-rl/results/graphs", exist_ok=True)
 
@@ -22,7 +21,6 @@ def plot_rewards(results):
 
     plt.savefig("gridworld-rl/results/graphs/reward_curve.png")
     plt.show()
-
 
 def plot_steps(results):
     os.makedirs("gridworld-rl/results/graphs", exist_ok=True)

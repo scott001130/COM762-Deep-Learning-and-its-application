@@ -5,12 +5,10 @@ import numpy as np
 
 from environment.gridworld import GridWorld, State
 
-
 class QLearningAgent:
     """
     Tabular Q-learning agent using epsilon-greedy exploration.
     """
-
     def __init__(
         self,
         env: GridWorld,
