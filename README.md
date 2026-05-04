@@ -104,11 +104,11 @@ results/plots/
 
 ## Output Example
 
-Learning rate: 1.0  
-Episodes completed: 100  
-Final average reward: 9.60  
-Average steps: 8.96  
-Learned path: [2,1] -> [2,2] -> [2,3] -> [2,4] -> [4,4] -> [5,4] -> [5,5]  
+- Learning rate: 1.0  
+- Episodes completed: 100
+- Final average reward: 9.60  
+- Average steps: 8.96  
+- Learned path: [2,1] -> [2,2] -> [2,3] -> [2,4] -> [4,4] -> [5,4] -> [5,5]  
 ----------------------------------------
 
 ---
